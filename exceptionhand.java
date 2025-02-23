@@ -14,6 +14,8 @@ public class exceptionhand {
         //catch(ArithmeticException e){
           //  System.out.println(e);  //like we can also specific the exception handling
         //}
+        
+        // finally  keyword will execute the method wheather there is error is prestent or not
         System.out.println("program ended");
         scan.close();
     }
