@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class exceptionhand {
-    @SuppressWarnings({ "unused", "resource" })
+    @SuppressWarnings({ "unused" })
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         try{
@@ -15,6 +15,8 @@ public class exceptionhand {
           //  System.out.println(e);  //like we can also specific the exception handling
         //}
         System.out.println("program ended");
+        scan.close();
     }
+    
     
 }
