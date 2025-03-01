@@ -5,10 +5,19 @@ public class constructor {
     constructor(){
         System.out.println("hello");
     }
+    constructor(int marks,String name ){
+        this.marks=marks;
+        this.name = name;
+
+    }
+    constructor(String name){
+        this.name=name;
+    }
     public static void main(String[] args) {
-        constructor ob1 =new constructor();
+        constructor ob1 =new constructor(45,"naveen");
         System.out.println(ob1.marks);
-        constructor ob2 = new constructor();
+        System.out.println(ob1.name);
+        constructor ob2 = new constructor("naveen");
         System.out.println(ob2.name);
     }
     
